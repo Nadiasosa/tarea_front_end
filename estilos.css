@@ -1,0 +1,43 @@
+#logoContenedor{
+    width: 100px;
+    height: 100px;
+}
+
+#tu{
+    width:100%;
+    height: 80%;
+    float:left;
+}
+#carrito{
+    float:right;
+    width: 50px;;
+}
+
+
+#cat1,#cat2,#cat3,#cat4{
+    width:25%;
+    float:left;
+    text-align: center;
+
+}
+#cat1{
+    background-color: gray;
+}
+#cat2{
+    background-color: antiquewhite;
+}
+#cat3{
+    background-color: aquamarine;
+
+}
+#cat4{
+    background-color:yellowgreen;
+}
+#perchas{
+    width:100%;
+
+}
+#producto1,#producto2,#producto3,#producto4{
+    float: left;
+    width:25%;
+}

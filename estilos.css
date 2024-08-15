@@ -12,6 +12,18 @@
     float:right;
     width: 50px;;
 }
+#carritoContenedor{
+    width: 38px;
+    height: 38px;
+    border-radius:50%;
+    background-color: aqua;
+    display:block;
+    position:fixed;
+    z-index:2;
+    top: 90px;
+    right:20px;
+
+}
 
 
 #cat1,#cat2,#cat3,#cat4{

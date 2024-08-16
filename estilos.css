@@ -53,3 +53,18 @@
     float: left;
     width:25%;
 }
+#logoinstagram,#logofacebook,#logotwiter{
+    float:left
+    width:10px;
+   
+    
+}
+#parrafo{
+    width: 600px;
+    height: 38px;
+    display:block;
+    position:absolute;
+    z-index:2;
+    top: 140%;
+    right:20px;  
+}

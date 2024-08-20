@@ -30,6 +30,8 @@
     width:25%;
     float:left;
     text-align: center;
+    padding-top:25px;
+    padding-bottom:25px;
 
 }
 #cat1{
@@ -45,6 +47,148 @@
 #cat4{
     background-color:yellowgreen;
 }
+/*  ---Carrusel--- */
+
+
+/* Slideshow container */
+.slideshow-container {
+    max-width: 600px;
+    position: relative;
+    margin: auto;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  
+  /* Slideshow images */
+  
+  .flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #fondo1,#fondo2,#fondo3,#fondo4{
+    width: 100vw;
+    height: 75vh;
+    max-width: 390px;
+    max-height: 219px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  
+  #fondo1{
+    background-image: url(imagenes/perhas4.jpg);
+  }
+  
+  #fondo2{
+    background-image: url(imagenes/bane2.jpg);
+  }
+  
+  #fondo3{
+    background-image: url(imagenes/baner3.jpg);
+  }
+  
+  #fondo4{
+    background-image: url(imagenes/baner.jpg);
+  }
+  
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 2s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+  /* Caption text */
+  .text {
+    background-color: #DFB302;
+    color: #b30300;
+    font-size: 13px;
+    font-weight: bold;
+    text-shadow: 3px 3px 4px #0009;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    left: 13.5%;
+    width: 74%;
+    text-align: center;
+    border-radius: 20px;
+    border: solid 2px;
+    border-color: #000;
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  .mySlides-Imagen{
+    border-radius: 15px;
+  }
+  
+  /* The dots/bullets/indicators */
+  
+  #dots{
+    text-align: center;
+    margin: 15px 0 12px 0;
+  }
+  
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 1.5s ease;
+    box-shadow: 3px 3px 4px #0009;
+  }
+  
+  .active,.dot:hover {
+    background-color: #717171;
+  }
+  
+  /* Fading animation */
+  .fade {
+    animation-name: fade;
+    animation-duration: 2s;
+  }
+  
+  
+
+
 #perchas{
     width:100%;
 
@@ -53,18 +197,26 @@
     float: left;
     width:25%;
 }
+
 #logoinstagram,#logofacebook,#logotwiter{
-    float:left
-    width:10px;
-   
+    float:left;
+   width:50px;
     
 }
 #parrafo{
-    width: 600px;
-    height: 38px;
+    width: 900px;
+    height:120px;
     display:block;
     position:absolute;
     z-index:2;
-    top: 140%;
+    top: 80%;
     right:20px;  
 }
+@media(768x696)
+width: 900px;
+    height:120px;
+    display:block;
+    position:absolute;
+    z-index:2;
+    top: 150%;
+    right:20px;  

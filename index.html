@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="estilos.css">
+    <script src="js.js"></script>
 </head>
 <body>
  <header>
@@ -17,14 +18,62 @@
  <a href="">iniciar secion</a>
  <a href="">rejistrarme</a> 
  <div id="Menu">
-    <div id="cat1">cat1</div>
-    <div id="cat2">cat2</div>
-    <div id="cat3">cat3</div>
-    <div id="cat4">cat4</div>
+    <div id="cat1"><a href="cat_1">cat1</a></div>
+    <div id="cat2"><a href="cat_2">cat2</a></div>
+    <div id="cat3"><a href="cat_3">cat3</a></div>
+    <div id="cat4"><a href="cat_4">cat4</a></div>
     
  </div></header>
  <main>
- <img id="perchas" src="imagenes/perhas4.jpg" alt="">
+<!----------------------------- Carrusel de presentación ----------------------------->
+            <!-- Slideshow container -->
+            <div class="slideshow-container" title="Carrusel de imagenes para presentación">
+               <!-- Full-width images with number and caption text -->
+               <div class="mySlides fade">
+                   <div class="numbertext">Imagen 1 de 4</div>
+                     <div class="flex-center">
+                       <div id="fondo1" rel="preload" fetchpriority="high" class="flex-center"></div>
+                     </div>
+                   <div class="text"><h3>tramayurdimbreuruguay</h3></div>
+               </div>
+
+               <div class="mySlides fade">
+                   <div class="numbertext">Imagen 2 de 4</div>
+                   <div class="flex-center">
+                     <div id="fondo2" class="flex-center"></div>
+                   </div>
+                   <div class="text"><h3>Un lugar para relajarse y vestirse</h3></div>
+               </div>
+
+               <div class="mySlides fade">
+                   <div class="numbertext">Imagen 3 de 4</div>
+                   <div class="flex-center">
+                     <div id="fondo3" class="flex-center"></div>
+                   </div>
+                   <div class="text"><h3>Con atencion de primera</h3></div>
+               </div>
+               <div class="mySlides fade">
+                   <div class="numbertext">Imagen 4 de 4</div>
+                   <div class="flex-center">
+                     <div id="fondo4" class="flex-center"></div>
+                   </div>
+                   <div class="text"><h3>Para todos los gustos</h3></div>
+               </div>
+
+               <!-- Next and previous buttons -->
+               <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+               <a class="next" onclick="plusSlides(1)">&#10095;</a>
+           </div>
+           <div class="separadorDots"></div>
+
+           <!-- The dots/circles -->
+           <div id="dots">
+               <span class="dot" onclick="currentSlide(1)"></span>
+               <span class="dot" onclick="currentSlide(2)"></span>
+               <span class="dot" onclick="currentSlide(3)"></span>
+               <span class="dot" onclick="currentSlide(4)"></span>
+           </div>
+ 
 
  <div>
  <div id="producto1" > 

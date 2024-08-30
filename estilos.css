@@ -98,6 +98,10 @@
   .mySlides {
     display: none;
   }
+  .slideshow-container{
+    clear:both;
+    margin: auto;
+  }
   
   /* Next & previous buttons */
   .prev, .next {
@@ -207,16 +211,21 @@
     width: 900px;
     height:120px;
     display:block;
-    position:absolute;
     z-index:2;
     top: 80%;
-    right:20px;  
+    right:20px;
+    clear: both; 
+    float: right; 
 }
-@media(768x696)
-width: 900px;
+@media(min-width:768){ 
+  #parrafo{
+    width: 900px;
     height:120px;
     display:block;
-    position:absolute;
     z-index:2;
-    top: 150%;
-    right:20px;  
+    top: 80%;
+    right:20px;
+    clear: both; 
+    float: right; 
+}
+  }
